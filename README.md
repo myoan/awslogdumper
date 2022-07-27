@@ -26,6 +26,9 @@ Usage of awslogdumper:
 ```
 
 When you omit `-start` option, awslogdumper gets log-stream information and uses `stream.FirstEventTimestamp`.
+
 If your requested start-time is earlier than `stream.FirstEventTimestamp`, awslogdumper uses `stream.FirstEventTimestamp`.
+
 When you omit `-end` option, awslogdumper gets stream info and uses `stream.LastEventTimestamp`.
+
 If your requested end-time is later than `stream.LastEventTimestamp`, awslogdumper uses `stream.LastEventTimestamp`.
