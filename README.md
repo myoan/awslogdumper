@@ -5,7 +5,7 @@
 ## install
 
 ```
-go install github.com/myoan/awslogdumper
+go install github.com/myoan/awslogdumper@latest
 ```
 
 ## how to use it
